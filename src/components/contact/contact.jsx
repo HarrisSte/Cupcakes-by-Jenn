@@ -1,5 +1,83 @@
-function Footer() {
-  return <footer>CONTACT</footer>;
-}
+import { useState } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-export default Footer;
+import emailjs from 'emailjs-com';
+
+import './contact.css';
+
+const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const submit = () => {
+    if (name && email && message) {
+      const serviceId = '';
+      const templateId = '';
+      const userId = '';
+      const templateParams = {
+        name,
+        email,
+        message,
+      };
+
+      emailjs
+        .send(serviceId, templateId, templateParams, userId)
+        .then((response) => console.log(response))
+        .then((error) => console.log(error));
+
+      setName('');
+      setEmail('');
+      setMessage('');
+    } else {
+      alert('Oops, all fields are required.');
+    }
+  };
+
+  return (
+    <Container>
+      <Row>
+        <Col>
+          <div className='contact-form'>
+            <a href='https://www.linkedin.com/in/harrisste9/'>
+              <i className='bi bi-linkedin'></i>
+            </a>
+            <a href='https://www.github.com/HarrisSte'>
+              <i className='bi bi-github'></i>
+            </a>
+
+            <h2>Want to get in touch? Let's connect!</h2>
+            <h5>
+              Drop me a line or find me on my social media accounts! <br></br>
+              I'll be sure to get back to you as soon as possible.
+            </h5>
+            <input
+              className='name mb-1'
+              type='text'
+              placeholder='First and Last Name'
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
+            <input
+              className='email mb-1'
+              type='email'
+              placeholder='Your email address'
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <textarea
+              placeholder='Leave your message here!'
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+            ></textarea>
+            <button className='contact-submit' onClick={submit}>
+              Send my message!
+            </button>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default Contact;
