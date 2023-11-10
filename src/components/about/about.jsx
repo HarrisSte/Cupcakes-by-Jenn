@@ -1,5 +1,5 @@
 function About() {
-  return <footer>ABOUT</footer>;
+  return <footer></footer>;
 }
 
 export default About;
