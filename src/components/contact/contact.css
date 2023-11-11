@@ -1,0 +1,67 @@
+.contact-form {
+    margin: auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f8f5f2;
+    border-style: solid;
+    /* border-image: linear-gradient(to right, #84fab0, #8fd3f4) 1; */
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-form a {
+    font-size: 3rem;
+    margin: 1rem;
+    color: #1B4D3E;
+}
+
+.contact-form a:hover {
+    color: #37aa88;
+}
+
+.contact-form h5 {
+    margin-bottom: 2rem;
+}
+
+.contact-submit {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.contact-submit:hover {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #1B4D3E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid #1B4D3E;
+    resize: none;
+    background-color: white;
+}
+
+textarea {
+    padding-bottom: 6.5rem;
+}
+
+textarea::placeholder {
+    color: #1B4D3E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
