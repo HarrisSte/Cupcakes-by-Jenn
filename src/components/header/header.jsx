@@ -16,7 +16,8 @@ function Header() {
           </Link>
         </div>
         <Navbar.Brand as={Link} to='/'>
-          <h3>Jenna's Cupcakes</h3>
+          Cupcakes by Jenn
+          <p>Award Winning Cupcakes</p>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
@@ -50,8 +51,20 @@ function Header() {
               Contact
             </Nav.Link>
             <NavDropdown title='Social Media'>
-              <NavDropdown.Item href=''>Instagram</NavDropdown.Item>
-              <NavDropdown.Item href=''>Facebook</NavDropdown.Item>
+              <NavDropdown.Item
+                href='https://www.instagram.com/cupcakes_by_jenn/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Instagram
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href='https://www.facebook.com/cupcakesbyjenn515'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Facebook
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

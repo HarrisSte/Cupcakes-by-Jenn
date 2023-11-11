@@ -3,3 +3,21 @@
     align-items: center;
     padding-top: 2.5rem;
 }
+
+.footer a {
+    color: #3E303B;
+    font-size: 1.7rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer a:hover {
+    color: #88585A;
+    transform: scale(1.2);
+}
+
+.copyright {
+    font-size: 1rem;
+    color: #3E303B;
+    display: flex;
+    justify-content: center;
+}

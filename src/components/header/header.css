@@ -7,13 +7,13 @@
 }
 
 .navbar-brand {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     font-family: 'Raleway', sans-serif;
 }
 
 .navbar-brand p {
     color: #09516c;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-family: 'Raleway', sans-serif;
 }
 
@@ -23,5 +23,5 @@
 
 .nav-link {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
