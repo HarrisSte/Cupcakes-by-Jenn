@@ -60,7 +60,7 @@
     display: grid;
     place-items: center;
     text-align: center;
-    height: 100vh
+    /* height: 100vh */
 }
 
 .title {
@@ -72,8 +72,13 @@
 .title-container {
     background-color: #7B3B3B;
     margin: 0 -9999rem;
-    padding: 30px;
-       
+    padding: 75px;
+
+}
+
+.occasions {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .occasions img {
@@ -83,6 +88,7 @@
     --c: #7B3B3B;
 
     width: var(--w);
+
     aspect-ratio: 1;
     object-fit: cover;
     padding: calc(2*var(--s));
@@ -90,7 +96,7 @@
     background:
         linear-gradient(var(--_g)) 50%/100% var(--_i, 100%) no-repeat,
         linear-gradient(90deg, var(--_g)) 50%/var(--_i, 100%) 100% no-repeat;
-    outline: calc(var(--w)/2) solid #0009;
+    outline: calc(var(--w)/2) solid #eecbc15a;
     outline-offset: calc(var(--w)/-2 - 2*var(--s));
     transition: .4s;
     cursor: pointer;
@@ -110,4 +116,18 @@
 .occasions a {
     font-size: 22px;
     font-family: 'Raleway';
+}
+
+.contact-container {
+    background-color: #3e303b;
+    margin: 0 -9999rem;
+    color: white;
+}
+
+.contact-container i {
+    color: #dd9ac2;
+}
+
+.contact-container i:hover {
+    color: white;
 }

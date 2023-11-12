@@ -1,28 +1,35 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
+import Contact from '../contact/contact.jsx';
+
+import bdayImg from '../../assets/birthday.jpg';
+import gradImg from '../../assets/graduation.jpg';
+import weddgImg from '../../assets/wedding.jpg';
+import hlidyImg from '../../assets/holiday.jpg';
+
 import './welcome.css';
 
 const occasions = [
   {
-    img: 'birthdays',
+    img: bdayImg,
     title: 'Birthdays',
     description: 'birthday cupcakes',
     href: '/menu',
   },
   {
-    img: 'weddings',
+    img: weddgImg,
     title: 'Weddings',
     description: 'wedding cupcakes',
     href: '/menu',
   },
   {
-    img: 'weddings',
+    img: hlidyImg,
     title: 'Holidays',
     description: 'holiday cupcakes',
     href: '/menu',
   },
   {
-    img: 'graduations',
+    img: gradImg,
     title: 'Graduations',
     description: 'graduation cupcakes',
     href: '/menu',
@@ -50,15 +57,19 @@ function Welcome() {
           <Col key={index} className='occasions'>
             <a href={occasion.href}>
               <div className='image-container'>
-                <img
-                  src={`https://picsum.photos/id/${index + 1}/300/300`}
-                  alt={occasion.description}
-                />
+                <img src={occasion.img} alt={occasion.description} />
                 <div>{occasion.title}</div>
               </div>
             </a>
           </Col>
         ))}
+      </Row>
+      <Row>
+        <Col>
+          <div className='contact-container'>
+            <Contact />
+          </div>
+        </Col>
       </Row>
     </Container>
   );
