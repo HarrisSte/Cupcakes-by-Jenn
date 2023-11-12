@@ -38,10 +38,17 @@ function Header() {
             </Nav.Link>
             <Nav.Link
               as={Link}
-              to='/portfolio'
+              to='/menu'
               className={location.pathname === '/menu' ? 'active' : ''}
             >
               Menu
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to='/awards'
+              className={location.pathname === '/awards' ? 'active' : ''}
+            >
+              Awards
             </Nav.Link>
             <Nav.Link
               as={Link}
