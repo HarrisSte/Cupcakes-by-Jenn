@@ -37,20 +37,23 @@ const Contact = () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col className='contact-socials' sm={4}>
+          <h2>Let's talk cupcakes...</h2>
+          <h5>
+            Send me a message directly to my email or find me on my social media
+            accounts! <br></br>
+            <br></br>
+            I'll be sure to get back to you as soon as possible.
+          </h5>
+          <a href='https://www.facebook.com/cupcakesbyjenn515'>
+            <i className='bi bi-facebook'></i>
+          </a>
+          <a href='https://www.instagram.com/cupcakes_by_jenn/'>
+            <i className='bi bi-instagram'></i>
+          </a>
+        </Col>
+        <Col sm={8}>
           <div className='contact-form'>
-            <a href='https://www.linkedin.com/in/harrisste9/'>
-              <i className='bi bi-linkedin'></i>
-            </a>
-            <a href='https://www.github.com/HarrisSte'>
-              <i className='bi bi-github'></i>
-            </a>
-
-            <h2>Want to get in touch? Let's connect!</h2>
-            <h5>
-              Drop me a line or find me on my social media accounts! <br></br>
-              I'll be sure to get back to you as soon as possible.
-            </h5>
             <input
               className='name mb-1'
               type='text'

@@ -1,29 +1,32 @@
-.contact-form {
-    margin: auto;
-    margin-top: 3rem;
-    padding: 2rem;
-    background-color: #f8f5f2;
-    border-style: solid;
-    /* border-image: linear-gradient(to right, #84fab0, #8fd3f4) 1; */
+.contact-socials {
+    padding-top: 9rem;
     font-family: 'Raleway', sans-serif;
 }
 
-.contact-form a {
-    font-size: 3rem;
-    margin: 1rem;
-    color: #1B4D3E;
+.contact-socials h2 {
+    font-weight: bold;
 }
 
-.contact-form a:hover {
-    color: #37aa88;
+.contact-socials i {
+    margin: 5px;
+    padding: 14px;
+    font-size: 48px;
+    color: #82667f;
 }
 
-.contact-form h5 {
-    margin-bottom: 2rem;
+.contact-socials i:hover {
+    color: #5c374c;
+}
+
+.contact-form {
+    margin: auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .contact-submit {
-    background-color: blue;
+    background-color: #82667f;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -33,7 +36,7 @@
 }
 
 .contact-submit:hover {
-    background-color: lightblue;
+    background-color: #5c374c;
     color: white;
     text-align: center;
 }

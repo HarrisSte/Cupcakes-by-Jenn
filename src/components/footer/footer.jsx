@@ -39,7 +39,7 @@ function Footer() {
         >
           <a
             className='bi bi-instagram'
-            href=''
+            href='https://www.instagram.com/cupcakes_by_jenn/'
             target='_blank'
             rel='noopener noreferrer'
           ></a>

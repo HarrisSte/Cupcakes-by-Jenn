@@ -1,5 +1,5 @@
 function Home() {
-  return <footer>HOME</footer>;
+  return <footer>Welcome</footer>;
 }
 
 export default Home;
