@@ -60,7 +60,6 @@
     display: grid;
     place-items: center;
     text-align: center;
-    /* height: 100vh */
 }
 
 .title {
@@ -73,7 +72,6 @@
     background-color: #7B3B3B;
     border-radius: 1rem;
     padding: 75px;
-
 }
 
 .occasions {
