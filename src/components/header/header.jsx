@@ -57,22 +57,20 @@ function Header() {
             >
               Contact
             </Nav.Link>
-            <NavDropdown title='Social Media'>
-              <NavDropdown.Item
-                href='https://www.instagram.com/cupcakes_by_jenn/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Instagram
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                href='https://www.facebook.com/cupcakesbyjenn515'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Facebook
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link
+              href='https://www.instagram.com/cupcakes_by_jenn/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='bi bi-instagram'></i>
+            </Nav.Link>
+            <Nav.Link
+              href='https://www.facebook.com/cupcakesbyjenn515'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='bi bi-facebook'></i>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
