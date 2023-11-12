@@ -21,7 +21,14 @@
     background: white;
 }
 
-.nav-link {
+.nav-socials {
     font-family: 'Raleway', sans-serif;
     font-size: 19px;
+}
+
+.nav-socials i {
+    /* display: flex; */
+    padding-right: 10px;
+    font-size: 25px;
+    color: #5c374c;
 }

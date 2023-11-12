@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
 
 import Logo from '../../assets/logo.png';
@@ -10,6 +10,22 @@ function Header() {
   return (
     <Navbar expand='lg' className='nav-bar'>
       <Container>
+        <div className='nav-socials'>
+          <Nav.Link
+            href='https://www.instagram.com/cupcakes_by_jenn/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='bi bi-instagram'></i>
+          </Nav.Link>
+          <Nav.Link
+            href='https://www.facebook.com/cupcakesbyjenn515'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='bi bi-facebook'></i>
+          </Nav.Link>
+        </div>
         <div className='logo'>
           <Link to='/'>
             <img src={Logo} width={100} height={100} />
@@ -56,20 +72,6 @@ function Header() {
               className={location.pathname === '/contact' ? 'active' : ''}
             >
               Contact
-            </Nav.Link>
-            <Nav.Link
-              href='https://www.instagram.com/cupcakes_by_jenn/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <i className='bi bi-instagram'></i>
-            </Nav.Link>
-            <Nav.Link
-              href='https://www.facebook.com/cupcakesbyjenn515'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <i className='bi bi-facebook'></i>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
