@@ -1,11 +1,8 @@
-#root {
-  background-color: #EECBC1;
-}
-
-main {
+body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
   padding: 0;
   user-select: none;
+  
 }
