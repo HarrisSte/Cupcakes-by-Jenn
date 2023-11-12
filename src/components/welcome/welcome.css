@@ -71,7 +71,7 @@
 
 .title-container {
     background-color: #7B3B3B;
-    margin: 0 -9999rem;
+    border-radius: 1rem;
     padding: 75px;
 
 }
@@ -120,7 +120,7 @@
 
 .contact-container {
     background-color: #3e303b;
-    margin: 0 -9999rem;
+    border-radius: 1rem;
     color: white;
 }
 
