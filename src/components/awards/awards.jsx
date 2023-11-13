@@ -1,5 +1,4 @@
 import { Container, Row, Col } from 'react-bootstrap';
-// import awardPic from '../../assets/awardPic.jpg';
 
 import './awards.css';
 
