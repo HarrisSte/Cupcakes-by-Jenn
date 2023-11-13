@@ -9,7 +9,7 @@ function Menu() {
         <Col>
           <div className='batter-container'>
             <h2 className='batter-title'>
-              Choose your
+              Pick your
               <span className='title-word title-word-1'> B</span>
               <span className='title-word title-word-2'>a</span>
               <span className='title-word title-word-3'>t</span>
@@ -63,7 +63,7 @@ function Menu() {
         <Col>
           <div className='batter-container'>
             <h2 className='batter-title'>
-              Choose your
+              Pick your
               <span className='title-word title-word-1'> F</span>
               <span className='title-word title-word-2'>r</span>
               <span className='title-word title-word-3'>o</span>

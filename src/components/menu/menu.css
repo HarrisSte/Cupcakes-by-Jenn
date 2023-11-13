@@ -1,7 +1,9 @@
 .menu {
     background-color: #f8f5f2;
-    border-radius: 1rem;
     font-family: 'Raleway';
+    border-style: solid;
+    margin-top: 1.5rem;
+    border-image: linear-gradient(to right, #eacbd2, #dfaeb4, #dd9ac2, #b486ab, #82667f) 1;
 }
 
 .menu p {
@@ -28,7 +30,7 @@
     font-weight: bolder;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .batter-title {
         height: 120px;
     }
