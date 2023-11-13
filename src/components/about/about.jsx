@@ -7,6 +7,9 @@ function About() {
   return (
     <Container>
       <Row>
+        <Col>
+          <img src={aboutPic} alt='Picture of Jenn' className='profile-image' />
+        </Col>
         <Col className='about-info'>
           Hello there! Welcome to Cupcakes by Jenn, my cupcake business. My
           name, as you may have guessed, is Jenn. I have been baking cupcakes
@@ -40,9 +43,6 @@ function About() {
           baking class with me. Yes, you read that correctly; I will soon be
           offering to show you how Cupcakes by Jenn creates her award-winning
           cupcakes!
-        </Col>
-        <Col>
-          <img src={aboutPic} alt='Picture of Jenn' className='profile-image' />
         </Col>
       </Row>
     </Container>
