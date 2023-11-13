@@ -1,177 +1,199 @@
 import { Container, Row, Col } from 'react-bootstrap';
-
 import './awards.css';
 
 function Awards() {
-  return (
-    <Container className='award-info'>
-      <Row>
-        <Col>
-          <div className='award-container'>
-            <h2 className='award-title'>
-              <span className='title-word title-word-1'> 2</span>
-              <span className='title-word title-word-2'>0</span>
-              <span className='title-word title-word-3'>2</span>
-              <span className='title-word title-word-4'>3</span>
-            </h2>
-          </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <h3>Honorable Mention</h3>
-          <p>
-            <b>Always Room for Dessert</b>
-            <br></br>Apple Pie
-          </p>
-        </Col>
-        <Col>
-          <h3>Overall</h3>
-          <p>
-            <b>Iowa Orchard</b>
-            <br></br>Apple Pie
-          </p>
-        </Col>
-        <Col>
-          <h3>1st</h3>
-          <p>
-            <b>Apple Dessert</b>
-            <br></br>Apple Pie
-          </p>
-          <p>
-            <b>Iowa Orchard</b>
-            <br></br>Apple Pie
-          </p>
-        </Col>
-        <Col>
-          <h3>3rd</h3>
-          <p>
-            <b>Splenda Low to No Sugar Showdown</b>
-            <br></br>Key Lime Pie
-          </p>
-          <p>
-            <b>Anything Goes, Everything Goes</b>
-            <br></br>Orange Creamcicle
-          </p>
-          <p>
-            <b>Breakfast Cake</b>
-            <br></br>Banana Nut French Toast
-          </p>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <div className='batter-container'>
-            <h2 className='batter-title'>
-              <span className='title-word title-word-1'> 2</span>
-              <span className='title-word title-word-2'>0</span>
-              <span className='title-word title-word-3'>2</span>
-              <span className='title-word title-word-4'>2</span>
-            </h2>
-          </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <h3>Overall</h3>
-          <p>
-            <b>Bacon, Bacon, Bacon</b>
-            <br></br>Chocolate Caramel Bacon
-          </p>
-        </Col>
-        <Col>
-          <h3>1st</h3>
-          <p>
-            <b>Bacon, Bacon, Bacon</b>
-            <br></br>Chocolate Caramel Bacon
-          </p>
-          <p>
-            <b>Breast Cancer</b>
-            <br></br>Strawberry Crunch
-          </p>
-        </Col>
-        <Col>
-          <h3>2nd</h3>
-          <p>
-            <b>Hyvee cake</b>
-            <br></br>Cherry Almond
-          </p>
-        </Col>
-        <Col>
-          <h3>3rd</h3>
-          <p>
-            <b>Always Room for Dessert</b>
-            <br></br>Apple Cider
-          </p>
-          <p>
-            <b>Iowa's Big Four</b>
-            <br></br>Chocolate Caramel Bacon
-          </p>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <div className='batter-container'>
-            <h2 className='batter-title'>
-              <span className='title-word title-word-1'> 2</span>
-              <span className='title-word title-word-2'>0</span>
-              <span className='title-word title-word-3'>2</span>
-              <span className='title-word title-word-4'>1</span>
-            </h2>
-          </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <h3>3rd</h3>
-          <p>
-            <b>Nostalgic</b>
-            <br></br>German Chocolate
-          </p>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <div className='batter-container'>
-            <h2 className='batter-title'>
-              <span className='title-word title-word-1'> 2</span>
-              <span className='title-word title-word-2'>0</span>
-              <span className='title-word title-word-3'>1</span>
-              <span className='title-word title-word-4'>9</span>
-            </h2>
-          </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <h3>2nd</h3>
-          <p>
-            <b>Innovative Chocolate</b>
-            <br></br>Spicy Mexican Hot Chocolate
-          </p>
-          <p>
-            <b>Iowa's Big Four</b>
-            <br></br>Maple Bacon Breakfast
-          </p>
-          <p>
-            <b>Create a Winner with Gurleys</b>
-            <br></br>Banana Nut French Toast
-          </p>
-        </Col>
-        <Col>
-          <h3>3rd</h3>
-          <p>
-            <b>Best Templeton Rye Dessert</b>
-            <br></br>Whiskey Smash
-          </p>
-          <p>
-            <b>Beginners Contest</b>
-            <br></br>Carrot Cake
-          </p>
-        </Col>
-      </Row>
-    </Container>
-  );
+  const awardInfo = [
+    {
+      year: '2023',
+      awards: [
+        {
+          title: 'Honorable Mention',
+          items: [
+            {
+              title: 'Always Room for Dessert',
+              content: 'Apple Pie',
+            },
+          ],
+        },
+        {
+          title: 'Overall',
+          items: [
+            {
+              title: 'Iowa Orchard',
+              content: 'Apple Pie',
+            },
+          ],
+        },
+        {
+          title: '1st',
+          items: [
+            {
+              title: 'Apple Dessert',
+              content: 'Apple Pie',
+            },
+            {
+              title: 'Iowa Orchard',
+              content: 'Apple Pie',
+            },
+          ],
+        },
+        {
+          title: '3rd',
+          items: [
+            {
+              title: 'Splenda Low to No Sugar Showdown',
+              content: 'Key Lime Pie',
+            },
+            {
+              title: 'Anything Goes, Everything Goes',
+              content: 'Orange Creamcicle',
+            },
+            {
+              title: 'Breakfast Cake',
+              content: 'Banana Nut French Toast',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      year: '2022',
+      awards: [
+        {
+          title: 'Overall',
+          items: [
+            {
+              title: 'Bacon, Bacon, Bacon',
+              content: 'Chocolate Caramel Bacon',
+            },
+          ],
+        },
+        {
+          title: '1st',
+          items: [
+            {
+              title: 'Bacon, Bacon, Bacon',
+              content: 'Chocolate Caramel Bacon',
+            },
+            {
+              title: 'Breast Cancer',
+              content: 'Strawberry Crunch',
+            },
+          ],
+        },
+        {
+          title: '2nd',
+          items: [
+            {
+              title: 'Hyvee cake',
+              content: 'Cherry Almond',
+            },
+          ],
+        },
+        {
+          title: '3rd',
+          items: [
+            {
+              title: 'Always Room for Dessert',
+              content: 'Apple Cider',
+            },
+            {
+              title: "Iowa's Big Four",
+              content: 'Chocolate Caramel Bacon',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      year: '2021',
+      awards: [
+        {
+          title: '3rd',
+          items: [
+            {
+              title: 'Nostalgic',
+              content: 'German Chocolate',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      year: '2019',
+      awards: [
+        {
+          title: '2nd',
+          items: [
+            {
+              title: 'Innovative Chocolate',
+              content: 'Spicy Mexican Hot Chocolate',
+            },
+            {
+              title: "Iowa's Big Four",
+              content: 'Maple Bacon Breakfast',
+            },
+            {
+              title: 'Create a Winner with Gurleys',
+              content: 'Banana Nut French Toast',
+            },
+          ],
+        },
+        {
+          title: '3rd',
+          items: [
+            {
+              title: 'Best Templeton Rye Dessert',
+              content: 'Whiskey Smash',
+            },
+            {
+              title: 'Beginners Contest',
+              content: 'Carrot Cake',
+            },
+          ],
+        },
+      ],
+    },
+  ];
+
+  const renderAwards = (year, awards) => {
+    return (
+      <Container key={year} className='award-info'>
+        <Row>
+          <Col>
+            <div className='award-container'>
+              <h2 className='award-title'>
+                {year.split('').map((digit, index) => (
+                  <span
+                    key={index}
+                    className={`title-word title-word-${index + 1}`}
+                  >
+                    {digit}
+                  </span>
+                ))}
+              </h2>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          {awards.map((award, index) => (
+            <Col key={index}>
+              <h3>{award.title}</h3>
+              {award.items.map((item, itemIndex) => (
+                <p key={itemIndex}>
+                  <b>{item.title}</b>
+                  <br></br>
+                  {item.content}
+                </p>
+              ))}
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    );
+  };
+
+  return <>{awardInfo.map(({ year, awards }) => renderAwards(year, awards))}</>;
 }
 
 export default Awards;
