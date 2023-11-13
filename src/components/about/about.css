@@ -5,7 +5,7 @@
     font-family: 'Raleway', sans-serif;
     background-color: #f8f5f2;
     border-style: solid;
-    /* border-image: linear-gradient(to right, #84fab0, #8fd3f4) 1; */
+    border-image: linear-gradient(to right, #eacbd2, #dfaeb4, #dd9ac2, #b486ab, #82667f) 1;
 }
 
 .profile-image {
@@ -14,7 +14,7 @@
     width: 425px;
     object-fit: cover;
     padding-top: 5rem;
-    /* border-radius: 59% 41% 72% 28% / 34% 75% 25% 66%; */
+    border-radius: 67% 47% 77% 33% / 34% 79% 30% 70%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -24,6 +24,6 @@
         width: 325px;
         object-fit: cover;
         padding-top: 5rem;
-        /* border-radius: 59% 41% 72% 28% / 34% 75% 25% 66%; */
+        border-radius: 67% 47% 77% 33% / 34% 79% 30% 70%;
     }
 }
