@@ -1,16 +1,19 @@
 .menu {
     background-color: #f8f5f2;
     border-radius: 1rem;
+    font-family: 'Raleway';
 }
 
 .menu p {
     font-size: 28px;
+    font-family: 'Raleway';
     border-bottom: dashed;
     margin: 16px;
     font-weight: bold;
 }
 
 .menu a {
+    font-family: 'Raleway';
     font-size: 18px;
 }
 
@@ -22,4 +25,5 @@
     background-color: #743837;
     color: white;
     border-radius: 1rem;
+    font-weight: bolder;
 }

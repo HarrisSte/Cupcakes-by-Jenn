@@ -1,0 +1,58 @@
+.award-info {
+    background-color: #f8f5f2;
+    border-radius: 1rem;
+    font-family: 'Raleway';
+    margin-top: 6rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f5f2;
+    border-style: solid;
+    border-image: linear-gradient(to right, #eacbd2, #dfaeb4, #dd9ac2, #b486ab, #82667f) 1;
+}
+
+.award-info p {
+    font-size: 28px;
+    font-family: 'Raleway';
+    border-bottom: dashed;
+    margin: 16px;
+    font-weight: bold;
+}
+
+.award-info a {
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.award-title {
+    height: 75px;
+    font-size: 48px;
+    margin: 26px;
+    text-align: center;
+    background-color: #743837;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bolder;
+}
+
+
+
+.award-image {
+    display: block;
+    margin: 0 auto;
+    width: 425px;
+    object-fit: cover;
+    padding-top: 5rem;
+    border-radius: 67% 47% 77% 33% / 34% 79% 30% 70%;
+}
+
+@media only screen and (max-width: 768px) {
+    .award-image {
+        display: block;
+        margin: 0 auto;
+        width: 325px;
+        object-fit: cover;
+        padding-top: 5rem;
+        border-radius: 67% 47% 77% 33% / 34% 79% 30% 70%;
+    }
+}

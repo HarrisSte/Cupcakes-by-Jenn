@@ -1,10 +1,4 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import Contact from '../contact/contact.jsx';
-
-import bdayImg from '../../assets/birthday.jpg';
-import gradImg from '../../assets/graduation.jpg';
-import weddgImg from '../../assets/wedding.jpg';
-import hlidyImg from '../../assets/holiday.jpg';
 
 import './menu.css';
 
