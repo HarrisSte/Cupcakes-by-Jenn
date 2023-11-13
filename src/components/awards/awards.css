@@ -11,7 +11,7 @@
     border-image: linear-gradient(to right, #eacbd2, #dfaeb4, #dd9ac2, #b486ab, #82667f) 1;
 }
 
-.award-info p {
+.award-info h3 {
     font-size: 28px;
     font-family: 'Raleway';
     border-bottom: dashed;
@@ -47,6 +47,8 @@
 }
 
 @media only screen and (max-width: 768px) {
+ 
+
     .award-image {
         display: block;
         margin: 0 auto;
