@@ -1,20 +1,23 @@
 import { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-
+import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
-
 import './contact.css';
 
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [showModal, setShowModal] = useState(false);
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
 
   const submit = () => {
     if (name && email && message) {
-      const serviceId = '';
-      const templateId = '';
-      const userId = '';
+      const serviceId = 'service_jqtthjl';
+      const templateId = 'template_3uoc6hq';
+      const userId = 'qhK40LCQQ9zRYCP8q';
       const templateParams = {
         name,
         email,
@@ -23,8 +26,13 @@ const Contact = () => {
 
       emailjs
         .send(serviceId, templateId, templateParams, userId)
-        .then((response) => console.log(response))
-        .then((error) => console.log(error));
+        .then((response) => {
+          console.log(response);
+          setShowModal(true); // Show the modal on successful submission
+        })
+        .catch((error) => {
+          console.error('Error sending email:', error);
+        });
 
       setName('');
       setEmail('');
@@ -33,7 +41,6 @@ const Contact = () => {
       alert('Oops, all fields are required.');
     }
   };
-
   return (
     <Container>
       <Row>
@@ -79,6 +86,20 @@ const Contact = () => {
           </div>
         </Col>
       </Row>
+      <Modal show={showModal} onHide={handleCloseModal}>
+        <Modal.Header closeButton>
+          <Modal.Title>Email Sent!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          Your email has been sent successfully. We will get back to you as soon
+          as possible.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant='secondary' onClick={handleCloseModal}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </Container>
   );
 };
