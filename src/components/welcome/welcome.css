@@ -122,17 +122,3 @@
 .occasions a:hover {
     font-size: 26px;
 }
-
-.contact-container {
-    background-color: #3e303b;
-    border-radius: 1rem;
-    color: white;
-}
-
-.contact-container i {
-    color: #dd9ac2;
-}
-
-.contact-container i:hover {
-    color: white;
-}

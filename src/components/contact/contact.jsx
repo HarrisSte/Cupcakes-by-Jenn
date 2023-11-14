@@ -28,7 +28,7 @@ const Contact = () => {
         .send(serviceId, templateId, templateParams, userId)
         .then((response) => {
           console.log(response);
-          setShowModal(true); // Show the modal on successful submission
+          setShowModal(true);
         })
         .catch((error) => {
           console.error('Error sending email:', error);
@@ -43,7 +43,7 @@ const Contact = () => {
   };
   return (
     <Container>
-      <Row>
+      <Row className='contact-pg'>
         <Col className='contact-socials' sm={4}>
           <h2>Let's talk cupcakes...</h2>
           <h5>
