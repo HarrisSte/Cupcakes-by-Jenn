@@ -10,6 +10,56 @@ function Menu() {
           <div className='batter-container'>
             <h2 className='batter-title'>
               Pick your
+              <span className='title-word title-word-1'> A</span>
+              <span className='title-word title-word-2'>m</span>
+              <span className='title-word title-word-3'>o</span>
+              <span className='title-word title-word-4'>u</span>
+              <span className='title-word title-word-1'>n</span>
+              <span className='title-word title-word-2'>t</span>
+            </h2>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <p>Basic Cupcakes</p>
+          <a>
+            <b>Single Cupcake -- $1.50</b>
+            <br></br>
+            Half-Dozen (6) -- $9.00<br></br>
+            <b>One-Dozen (12) -- $18.00</b>
+          </a>
+        </Col>
+        <Col>
+          <p>Fancy Cupcakes*</p>
+          <a>
+            Single Cupcake -- $1.75<br></br>
+            <b>Half-Dozen (6) -- $10.50</b>
+            <br></br>
+            One-Dozen (12) -- $21.00
+            <br></br>
+            <br></br>
+            *Additional garnish or simple filling.
+          </a>
+        </Col>
+        <Col>
+          <p>Extra Fancy Cupcakes*</p>
+          <a>
+            <b>Single Cupcake -- $2.00</b>
+            <br></br>
+            Half-Dozen (6) -- $12.00<br></br>
+            <b>One-Dozen (12) -- $24.00</b>
+            <br></br>
+            <br></br>
+            *Additional items such as bacon or booze.
+          </a>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <div className='batter-container'>
+            <h2 className='batter-title'>
+              Pick your
               <span className='title-word title-word-1'> B</span>
               <span className='title-word title-word-2'>a</span>
               <span className='title-word title-word-3'>t</span>
