@@ -56,7 +56,7 @@ function Welcome() {
         <Col>
           <h3>
             Welcome to the sweetest corner of Des Moines, where cupcakes aren't
-            just desserts; they're tiny, delectable works of art! At Cupcake's by Jenn, we sprinkle a dash of love into every
+            just desserts; they're tiny, delectable works of art! At Cupcakes by Jenn, we sprinkle a dash of love into every
             batter, creating confections that not only satisfy your sweet tooth
             but also win hearts. <br></br><br></br>Explore our gallery of delightful flavors, from
             classic vanilla dreams to exotic caramel creations. Join us in the
