@@ -59,7 +59,7 @@ function Welcome() {
             just desserts; they're tiny, delectable works of art! At Jenn's
             Award Winning Cupcakes, we sprinkle a dash of love into every
             batter, creating confections that not only satisfy your sweet tooth
-            but also win hearts. Explore our gallery of delightful flavors, from
+            but also win hearts. <br></br><br></br>Explore our gallery of delightful flavors, from
             classic vanilla dreams to exotic caramel creations. Join us in the
             pursuit of sweetness – because here, every cupcake is a tiny
             celebration, and you're invited to the party! 🧁✨
