@@ -77,6 +77,7 @@
 .occasions {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    min-height: 325px;
 }
 
 .occasions img {
