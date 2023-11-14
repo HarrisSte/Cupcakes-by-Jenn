@@ -29,9 +29,9 @@ function Menu() {
           </a>
           <p>Breakfast Inspired</p>
           <a>
-            Maple Whiskey, <b>Maple Bacon Breakfast,</b> Banana Nut,{' '}
-            <b>French Toast,</b> Butterbeer, <b>Peanut Butter Cookie,</b>{' '}
-            Cinnamon French Toast, <b>Mini Mimosa,</b> Churro
+            Maple Whiskey, <b>Maple Bacon Breakfast,</b> Banana Nut French
+            Toast, <b>Butterbeer</b>, Peanut Butter Cookie,
+            <b> Cinnamon French Toast</b>, Mini Mimosa, <b>Churro</b>
           </a>
         </Col>
         <Col>
@@ -40,11 +40,10 @@ function Menu() {
             <b>Strawberry Crunch,</b> Pineapple Upside Down, <b>Apple Pie,</b>{' '}
             Cherry Almond, <b>Apple Cider, </b> Strawberry Shortcake,{' '}
             <b>German Chocolate,</b> Peach Cobbler, <b>Fruit Pizza,</b> Dark
-            Chocolate Raspberry, <b>Neapolitan,</b> Key Lime,{' '}
-            <b>Peach Cobbler,</b>
-            Pink Velvet, <b>Dark Chocolate Raspberry,</b> Oreo,{' '}
-            <b>Chocolate Chip, </b>
-            Peanut Butter Cookie, <b>Pumpkin</b>
+            Chocolate Raspberry, <b>Neapolitan,</b> Key Lime,
+            <b> Pink Velvet, </b>Oreo,
+            <b> Chocolate Chip, </b>
+            Pumpkin
           </a>
         </Col>
       </Row>
