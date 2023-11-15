@@ -1,29 +1,29 @@
 .title-word {
-    animation: color-animation 4s linear infinite;
+    animation: color-animation 4s linear infinite
 }
 
 .title-word-1 {
     --color-1: #DF8453;
     --color-2: #3D8DAE;
-    --color-3: #E4A9A8;
+    --color-3: #E4A9A8
 }
 
 .title-word-2 {
     --color-1: #DBAD4A;
     --color-2: #ACCFCB;
-    --color-3: #17494D;
+    --color-3: #17494D
 }
 
 .title-word-3 {
     --color-1: #ACCFCB;
     --color-2: #E4A9A8;
-    --color-3: #ACCFCB;
+    --color-3: #ACCFCB
 }
 
 .title-word-4 {
     --color-1: #3D8DAE;
     --color-2: #DF8453;
-    --color-3: #E4A9A8;
+    --color-3: #E4A9A8
 }
 
 @keyframes color-animation {
@@ -59,32 +59,32 @@
 .welcome {
     display: grid;
     place-items: center;
-    text-align: center;
+    text-align: center
 }
 
 .welcome h3 {
     font-family: 'Raleway';
     padding-top: 22px;
-    font-weight: bold;
-    background-color: white;
+    /* font-weight: bold; */
+    background-color: #fff
 }
 
 .title {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-    font-size: 6vw;
+    font-size: 6vw
 }
 
 .title-container {
     background-color: #7B3B3B;
     border-radius: 1rem;
-    padding: 25px;
+    padding: 25px
 }
 
 .occasions {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    min-height: 325px;
+    min-height: 325px
 }
 
 .occasions img {
@@ -92,40 +92,36 @@
     --b: 2px;
     --w: 275px;
     --c: #7B3B3B;
-
     width: var(--w);
-
     aspect-ratio: 1;
     object-fit: cover;
     padding: calc(2*var(--s));
     --_g: var(--c) var(--b), #0000 0 calc(100% - var(--b)), var(--c) 0;
-    background:
-        linear-gradient(var(--_g)) 50%/100% var(--_i, 100%) no-repeat,
-        linear-gradient(90deg, var(--_g)) 50%/var(--_i, 100%) 100% no-repeat;
+    background: linear-gradient(var(--_g)) 50%/100% var(--_i, 100%) no-repeat, linear-gradient(90deg, var(--_g)) 50%/var(--_i, 100%) 100% no-repeat;
     outline: calc(var(--w)/2) solid #eecbc15a;
     outline-offset: calc(var(--w)/-2 - 2*var(--s));
     transition: .4s;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .occasions img:hover {
     outline: var(--b) solid var(--c);
     outline-offset: calc(var(--s)/-2);
-    --_i: calc(100% - 2*var(--s));
+    --_i: calc(100% - 2*var(--s))
 }
 
 .image-container {
     position: relative;
-    display: inline-block;
+    display: inline-block
 }
 
 .occasions a {
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Raleway';
-    color: #3e303b;
+    color: #3e303b
 }
 
 .occasions a:hover {
-    font-size: 26px;
+    font-size: 26px
 }

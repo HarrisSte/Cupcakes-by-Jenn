@@ -4,7 +4,7 @@
     font-family: 'Raleway';
     border-style: solid;
     margin-top: 1.5rem;
-    border-image: linear-gradient(to right, #eacbd2, #dfaeb4, #dd9ac2, #b486ab, #82667f) 1;
+    border-image: linear-gradient(to right, #eacbd2, #dfaeb4, #dd9ac2, #b486ab, #82667f) 1
 }
 
 .menu p {
@@ -12,13 +12,12 @@
     font-family: 'Raleway';
     border-bottom: dashed;
     margin: 16px;
-    font-weight: bold;
+    font-weight: 700
 }
 
 .menu a {
     font-family: 'Raleway';
-    font-size: 18px;
-  
+    font-size: 18px
 }
 
 .batter-title {
@@ -27,13 +26,18 @@
     margin: 26px;
     text-align: center;
     background-color: #743837;
-    color: white;
+    color: #fff;
     border-radius: 1rem;
-    font-weight: bolder;
+    font-weight: bolder
 }
 
 @media only screen and (max-width: 767px) {
     .batter-title {
-        height: 120px;
+        height: 120px
+    }
+
+    .menu {
+        margin-right: .5rem;
+        width: 90%;
     }
 }
