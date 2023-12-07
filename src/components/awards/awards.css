@@ -1,4 +1,23 @@
-/* .award-info {
+/* .timeline-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #743837;
+}
+
+.timeline-container p {
+    font-size: ;
+}
+
+.timeline-container img {
+    max-width: 50%;
+}
+
+.vertical-timeline {
+    color: aqua;
+} */
+
+
+.award-info {
     background-color: #f8f5f2;
     border-radius: 1rem;
     font-family: 'Raleway';
@@ -38,4 +57,4 @@
     .award-info {
         width: 95%
     }
-} */
+}
