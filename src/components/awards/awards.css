@@ -1,7 +1,7 @@
-/* .timeline-container {
+.timeline-container {
     margin-top: 2rem;
     padding: 1rem;
-    background-color: #743837;
+    /* background-color: #743837; */
 }
 
 .timeline-container p {
@@ -12,12 +12,18 @@
     max-width: 50%;
 }
 
-.vertical-timeline {
-    color: aqua;
-} */
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: black;
+}
 
 
-.award-info {
+/* .award-info {
     background-color: #f8f5f2;
     border-radius: 1rem;
     font-family: 'Raleway';
@@ -57,4 +63,4 @@
     .award-info {
         width: 95%
     }
-}
+} */
