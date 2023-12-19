@@ -1,66 +1,36 @@
-.timeline-container {
-    margin-top: 2rem;
-    padding: 1rem;
-    /* background-color: #743837; */
+.award-history {
+  margin-top: 3rem;
+  background-color: #00d4ff;
+  text-align: center;
+  border-radius: 1rem;
 }
 
-.timeline-container p {
-    font-size: ;
+.timeline-container {
+  /* margin-top: 6rem; */
+  padding: 1rem;
 }
 
 .timeline-container img {
-    max-width: 50%;
+  max-width: 50%;
+  border-radius: 1rem;
+}
+
+.vertical-timeline-element-title{
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 .vertical-timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 18px;
-    height: 100%;
-    width: 4px;
-    background: black;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background-image: linear-gradient(
+    180deg,
+    #020024 0%,
+    #090979 35%,
+    #00d4ff 100%
+  );
 }
-
-
-/* .award-info {
-    background-color: #f8f5f2;
-    border-radius: 1rem;
-    font-family: 'Raleway';
-    margin-top: 1.5rem;
-    font-size: 1.2rem;
-    font-family: 'Raleway', sans-serif;
-    background-color: #f8f5f2;
-    border-style: solid;
-    border-image: linear-gradient(to right, #eacbd2, #dfaeb4, #dd9ac2, #b486ab, #82667f) 1
-}
-
-.award-info h3 {
-    font-size: 28px;
-    font-family: 'Raleway';
-    border-bottom: dashed;
-    margin: 16px;
-    font-weight: 700
-}
-
-.award-info a {
-    font-family: 'Raleway';
-    font-size: 18px
-}
-
-.award-title {
-    height: 75px;
-    font-size: 48px;
-    margin: 26px;
-    text-align: center;
-    background-color: #743837;
-    color: #fff;
-    border-radius: 1rem;
-    font-weight: bolder
-}
-
-@media only screen and (max-width: 768px) {
-    .award-info {
-        width: 95%
-    }
-} */

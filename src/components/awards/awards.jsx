@@ -2,42 +2,84 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
+import { Container, Row } from 'react-bootstrap';
 
 import 'react-vertical-timeline-component/style.min.css';
 import './awards.css';
 
 import awardImg from '../../assets/birthday.jpg';
 
+const award = [
+  {
+    img: awardImg,
+    title: 'awards',
+    year: '2023',
+    category: '',
+    cupcake: '',
+    description: 'This is where a description lives',
+  },
+  {
+    img: awardImg,
+    title: 'awards',
+    year: '2022',
+    category: '',
+    cupcake: '',
+    description: 'This is where a description lives',
+  },
+  {
+    img: awardImg,
+    title: 'awards',
+    year: '2021',
+    category: '',
+    cupcake: '',
+    description: 'This is where a description lives',
+  },
+  {
+    img: awardImg,
+    title: 'awards',
+    year: '2019',
+    category: '',
+    cupcake: '',
+    description: 'This is where a description lives',
+  },
+];
 
-
-
-function Awards() {
+function Award() {
   return (
-    <VerticalTimeline className='timeline-container'>
-      <VerticalTimelineElement
-        className='vertical-timeline-element--work'
-        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-        date='2011 - present'
-        iconStyle={{ background: '#922f44', color: '#4c5359' }}
-      >
-        <h3 className='vertical-timeline-element-title'>
-          Lorem ipsum dolor sit amet.
+    <Container>
+      <Row className='award-history'>
+        <h1>Jenn's Journey...</h1>
+        <h3>
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ab, repudiandae! Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Accusamus corrupti eius harum ad neque
+          non cumque, provident tempore reiciendis porro repellat, mollitia,
+          voluptatem odit ipsam.
         </h3>
-        <img src={awardImg}></img>
-        <h4 className='vertical-timeline-element-subtitle'>
-          Lorem, ipsum dolor.
-        </h4>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-          aliquid?
-        </p>
-      </VerticalTimelineElement>
-    </VerticalTimeline>
+      </Row>
+      <VerticalTimeline className='timeline-container'>
+        {award.map((award, index) => (
+          <VerticalTimelineElement
+            key={index}
+            className='vertical-timeline-element--work'
+            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: '#922f44', color: '#4c5359' }}
+          >
+            <h1 className='vertical-timeline-element-title'>{award.year}</h1>
+            <img src={award.img} />
+            <h4 className='vertical-timeline-element-subtitle'>
+              {award.description}
+            </h4>
+            <p>{award.category}</p>
+            <p>{award.cupcake}</p>
+          </VerticalTimelineElement>
+        ))}
+      </VerticalTimeline>
+    </Container>
   );
 }
 
-export default Awards;
+export default Award;
 
 // import { Container, Row, Col } from 'react-bootstrap';
 // import './awards.css';
@@ -196,45 +238,3 @@ export default Awards;
 //       ],
 //     },
 //   ];
-
-//   const renderAwards = (year, awards) => {
-//     return (
-//       <Container key={year} className='award-info'>
-//         <Row>
-//           <Col>
-//             <div className='award-container'>
-//               <h2 className='award-title'>
-//                 {year.split('').map((digit, index) => (
-//                   <span
-//                     key={index}
-//                     className={`title-word title-word-${index + 1}`}
-//                   >
-//                     {digit}
-//                   </span>
-//                 ))}
-//               </h2>
-//             </div>
-//           </Col>
-//         </Row>
-//         <Row>
-//           {awards.map((award, index) => (
-//             <Col key={index}>
-//               <h3>{award.title}</h3>
-//               {award.items.map((item, itemIndex) => (
-//                 <p key={itemIndex}>
-//                   <b>{item.title}</b>
-//                   <br></br>
-//                   {item.content}
-//                 </p>
-//               ))}
-//             </Col>
-//           ))}
-//         </Row>
-//       </Container>
-//     );
-//   };
-
-//   return <>{awardInfo.map(({ year, awards }) => renderAwards(year, awards))}</>;
-// }
-
-// export default Awards;
