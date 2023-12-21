@@ -1,6 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
 import './menu.css';
+// import Gallery from '../gallery/gallery.jsx';
 
 function Menu() {
   return (
