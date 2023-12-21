@@ -77,6 +77,7 @@ function Award() {
             key={index}
             className='vertical-timeline-element--work'
             contentStyle={{ background: '#7b3b3b', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '14px solid  #743837' }}
             iconStyle={{ background: '#82667f' }}
           >
             <h1 className='vertical-timeline-element-title'>{award.year}</h1>
