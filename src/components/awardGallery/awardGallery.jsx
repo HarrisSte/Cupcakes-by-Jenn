@@ -2,24 +2,24 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import foodImg1 from '../../assets/birthday.jpg';
 
-import './gallery.css';
+import './awardGallery.css';
 
 const foodPics = [
   {
     img: foodImg1,
-    title: 'Shashlik',
+    title: 'Cupcake1',
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit',
     // href: '/menu',
   },
   {
     img: foodImg1,
-    title: 'cupcake',
+    title: 'cupcake2',
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit',
     // href: '/menu',
   },
   {
     img: foodImg1,
-    title: 'cupcake',
+    title: 'cupcake3',
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit',
     // href: '/menu',
   },

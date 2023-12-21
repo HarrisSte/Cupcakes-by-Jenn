@@ -8,6 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import './awards.css';
 
 import awardImg from '../../assets/birthday.jpg';
+import AwardGallery from '../awardGallery/awardGallery.jsx'
 
 const award = [
   {
@@ -58,6 +59,7 @@ const award = [
 function Award() {
   return (
     <Container>
+      <AwardGallery />
       <Row className='award-history'>
         <h1>Jenn's Journey...</h1>
         <p>
