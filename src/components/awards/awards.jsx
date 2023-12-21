@@ -76,15 +76,17 @@ function Award() {
           <VerticalTimelineElement
             key={index}
             className='vertical-timeline-element--work'
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            iconStyle={{ background: '#922f44', color: '#4c5359' }}
+            contentStyle={{ background: '#7b3b3b', color: '#fff' }}
+            iconStyle={{ background: '#82667f' }}
           >
             <h1 className='vertical-timeline-element-title'>{award.year}</h1>
-            <img src={award.img} />
+            <img src={award.img} alt='Image of a cupcake.' />
             <p className='vertical-timeline-element-subtitle'>
               {award.description}
             </p>
-            <p>Competitions:<br></br> {award.category}</p>
+            <p>
+              Competitions:<br></br> {award.category}
+            </p>
             <p>{award.cupcake}</p>
           </VerticalTimelineElement>
         ))}
