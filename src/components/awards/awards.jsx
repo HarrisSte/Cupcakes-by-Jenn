@@ -43,7 +43,7 @@ const award = [
     year: '2022',
     category: '',
     cupcake: '',
-    description: 'This is where a description lives',
+    description: 'Information coming soon!',
   },
   {
     img: awardImg,
@@ -51,7 +51,7 @@ const award = [
     year: '2023',
     category: '',
     cupcake: '',
-    description: 'This is where a description lives',
+    description: 'Information coming soon!',
   },
 ];
 
