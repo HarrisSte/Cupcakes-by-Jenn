@@ -1,23 +1,24 @@
 .award-history {
+  margin: auto;
   margin-top: 3rem;
   background-color: #00d4ff;
   text-align: center;
   border-radius: 1rem;
+  max-width: 75%;
 }
 
 .timeline-container {
-  /* margin-top: 6rem; */
   padding: 1rem;
 }
 
 .timeline-container img {
-  max-width: 50%;
+  max-width: 100%;
   border-radius: 1rem;
 }
 
-.vertical-timeline-element-title{
-    text-align: center;
-    padding-bottom: 1rem;
+.vertical-timeline-element-title {
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .vertical-timeline::before {
@@ -33,4 +34,14 @@
     #090979 35%,
     #00d4ff 100%
   );
+}
+
+@media (max-width: 768px) {
+  .award-history {
+    max-width: 100%;
+  }
+
+  .timeline-container img {
+    max-width: 100%;
+  }
 }

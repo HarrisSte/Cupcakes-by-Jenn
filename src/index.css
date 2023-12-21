@@ -5,4 +5,5 @@ body {
   padding: 0;
   user-select: none;
   background-image: url('./assets/JennasCupcakesContact.png');
+  background-attachment: fixed;
 }
