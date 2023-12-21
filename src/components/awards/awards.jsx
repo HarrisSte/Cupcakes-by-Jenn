@@ -2,7 +2,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import 'react-vertical-timeline-component/style.min.css';
 import './awards.css';
