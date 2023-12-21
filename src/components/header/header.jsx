@@ -68,6 +68,13 @@ function Header() {
             </Nav.Link>
             <Nav.Link
               as={Link}
+              to='/gallery'
+              className={location.pathname === '/gallery' ? 'active' : ''}
+            >
+              Gallery
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
               to='/contact'
               className={location.pathname === '/contact' ? 'active' : ''}
             >

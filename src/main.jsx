@@ -9,7 +9,8 @@ import Welcome from './components/welcome/welcome.jsx';
 import About from './components/about/about.jsx';
 import Menu from './components/menu/menu.jsx';
 import Contact from './components/contact/contact.jsx';
-import Awards from './components/awards/awards.jsx'
+import Awards from './components/awards/awards.jsx';
+import Gallery from './components/gallery/gallery.jsx'
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/awards',
         element: <Awards />,
+      },
+      {
+        path: '/gallery',
+        element: <Gallery />,
       },
     ],
   },
