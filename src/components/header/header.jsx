@@ -66,13 +66,13 @@ function Header() {
             >
               Awards
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               as={Link}
               to='/gallery'
               className={location.pathname === '/gallery' ? 'active' : ''}
             >
               Gallery
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               as={Link}
               to='/contact'
