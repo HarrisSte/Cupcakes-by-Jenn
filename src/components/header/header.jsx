@@ -32,7 +32,7 @@ function Header() {
           </Link>
         </div>
         <Navbar.Brand as={Link} to='/'>
-          Cupcakes by Jenn
+          Cupcakes by <span>Jenn</span>
           <p>Award Winning Cupcakes</p>
         </Navbar.Brand>
         <Navbar.Toggle />

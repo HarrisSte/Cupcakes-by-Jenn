@@ -1,47 +1,56 @@
 .active {
-    font-weight: 700
+  font-weight: 700;
+  border-bottom: solid black;
+  border-bottom-width: 2px;
 }
 
 .logo img {
-    margin-right: 1.5rem
+  margin-right: 1.5rem;
 }
 
 .navbar-brand {
-    font-size: 40px;
-    font-family: "Raleway", sans-serif
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand span {
+  font-family: 'Handlee', cursive;
+  font-size: 48px;
 }
 
 .navbar-brand p {
-    font-size: 19px;
-    font-family: 'Raleway', sans-serif
+  font-size: 19px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-socials i {
-    padding-right: 10px;
-    font-size: 25px;
-    color: #5c374c
+  padding-right: 10px;
+  font-size: 25px;
+  color: #5c374c;
 }
 
 .nav-link {
-    font-family: "Raleway", sans-serif;
-    font-size: 22px
+  font-family: 'Handlee', cursive;
+  font-size: 28px;
 }
 
+
+
 @media (max-width: 768px) {
-    .logo img {
-        margin-right: 90px
-    }
+  .logo img {
+    margin-right: 90px;
+  }
 
-    .navbar-brand {
-        font-size: 30px
-    }
+  .navbar-brand {
+    font-size: 30px;
+  }
 
-    .nav-link {
-        font-size: 18px
-    }
+  .nav-link {
+    font-size: 18px;
+  }
 
-    .nav-socials i {
-        margin-left: 90px;
-        font-size: 32px
-    }
+  .nav-socials i {
+    margin-left: 90px;
+    font-size: 32px;
+  }
 }
