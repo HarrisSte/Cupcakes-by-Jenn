@@ -37,7 +37,7 @@ function Gallery() {
               <img src={foodPic.img} alt={foodPic.description} />
               <div className='hover-overlay'></div>
               <div className='hover-1-content px-5 py-4'>
-                <h3 className='hover-1-title font-weight-bold mb-0'>
+                <h3 className='hover-1-title'>
                   <span className='bi bi-award-fill'> {foodPic.title}</span>
                 </h3>
                 <p className='hover-1-description mb-0'>
