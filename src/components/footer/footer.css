@@ -1,3 +1,8 @@
+footer {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
 .footer {
     justify-content: center;
     align-items: center;
