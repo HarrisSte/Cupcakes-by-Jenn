@@ -1,3 +1,7 @@
+:root {
+  --award-font: 'Handlee', cursive;
+}
+
 .award-history {
   margin: auto;
   margin-top: 3rem;
@@ -18,7 +22,7 @@
 }
 
 .award-history h1 {
-  font-family: 'Handlee', cursive;
+  font-family: var(--award-font);
   margin-top: 1rem;
 }
 
@@ -33,14 +37,16 @@
 }
 
 .timeline-container img {
-  max-width: 100%;
+  max-width: 75%;
   border-radius: 1rem;
+  margin: auto;
+  display: block;
 }
 
 .vertical-timeline-element-title {
   text-align: center;
   padding-bottom: 1rem;
-  font-family: 'Handlee', cursive;
+  font-family: var(--award-font);
   font-weight: bold;
 }
 
